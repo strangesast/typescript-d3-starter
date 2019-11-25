@@ -2,4 +2,4 @@ import * as d3 from 'd3';
 
 const body = d3.select(document.body);
 
-console.log(d3);
+body.append('p').text('D3 starter works');

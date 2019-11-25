@@ -8,19 +8,20 @@
   "author": "Sam Zagrobelny <strangesast@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "@types/chai": "^4.1.7",
-    "@types/d3": "^5.0.1",
-    "@types/mocha": "^5.2.5",
+    "@types/chai": "^4.2.5",
+    "@types/d3": "^5.7.2",
+    "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
-    "mocha": "^5.2.0",
-    "ts-loader": "^5.3.0",
-    "ts-node": "^7.0.1",
-    "typescript": "^3.1.6",
-    "webpack": "^4.25.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^6.2.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "d3": "^5.7.0"
+    "d3": "^5.14.2"
   }
 }

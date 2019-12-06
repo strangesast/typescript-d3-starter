@@ -1,7 +1,7 @@
 {
   "name": "typescript-d3-starter",
   "scripts": {
-    "start": "webpack-dev-server --host $(ip route get 1 | awk '{print $NF;exit}')",
+    "start": "webpack-dev-server --host 0.0.0.0",
     "build": "webpack --config webpack.config.js",
     "test": "mocha -r ts-node/register src/**/*.spec.ts"
   },

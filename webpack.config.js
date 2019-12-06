@@ -7,6 +7,7 @@ module.exports = {
   entry: './src/index.ts',
   plugins: [
     new HtmlWebpackPlugin({
+      title: 'Typescript D3 Starter',
       template: 'src/index.html'
     })
   ],

@@ -1,5 +1,3 @@
-// import * as index from "./index";
-
 describe("index", () => {
   it("should run a test", () => {
     expect("").toEqual("");
@@ -10,7 +8,4 @@ describe("index", () => {
       "D3 starter works"
     );
   });
-  // it ('should do this', () => {
-  //   expect(this).to.be(that);
-  // });
 });

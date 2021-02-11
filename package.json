@@ -1,27 +1,26 @@
 {
   "name": "typescript-d3-starter",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack serve --config webpack.config.js --progress",
     "build": "webpack --config webpack.config.js",
-    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+    "test": "jest"
   },
   "author": "Sam Zagrobelny <strangesast@gmail.com>",
   "license": "ISC",
-  "devDependencies": {
-    "@types/chai": "^4.2.12",
-    "@types/d3": "^5.7.2",
-    "@types/mocha": "^8.0.0",
-    "chai": "^4.2.0",
-    "html-webpack-plugin": "^4.3.0",
-    "mocha": "^8.0.1",
-    "ts-loader": "^8.0.1",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7",
-    "webpack": "^4.44.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
-  },
   "dependencies": {
-    "d3": "^5.16.0"
+    "d3": "^6.5.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^6.3.0",
+    "@types/jest": "^26.0.20",
+    "html-webpack-plugin": "^5.0.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.1",
+    "ts-loader": "^8.0.17",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
